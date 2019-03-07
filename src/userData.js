@@ -7,6 +7,7 @@ function sendUsername(){
         };
 
 
+
     function sendChat() {
         var messageElement = document.getElementById("chatmessage");
         var toSend = JSON.stringify({"message": message});

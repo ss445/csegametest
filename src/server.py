@@ -8,6 +8,7 @@ def webFront():
     return bottle.static_file('game.html', root="")
 
 
+
 @bottle.route('/userData.js')
 @bottle.route('/static/userData.js')
 def userdatajs():

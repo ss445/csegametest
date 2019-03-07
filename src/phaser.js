@@ -8,6 +8,7 @@ function preload() {
 
 }
 
+
 var sprite;
 var weapon;
 var cursors;
