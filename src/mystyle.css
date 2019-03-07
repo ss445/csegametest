@@ -1,0 +1,80 @@
+.health {
+    position: static;
+    top: 30px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    border: 3px solid green;
+}
+.shield {
+    position: static;
+    top: 30px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    border: 3px solid blue;
+}
+.hotbarbuttons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 38px;
+  background-color: black;
+  border: 1px solid gray;
+  color: white;
+  float: left;
+}
+
+.hotbarbuttons :not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.hotbarbuttons :hover {
+  background-color: lightblue;
+}
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(100,100,100,100);
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+.SendUsername {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.game {
+left: 50px;
+right: 50px;
+width: 640px;
+height: 800px;
+background-color: blue;
+}
+
+.chatwindow {
+right: 0,
+bottom: 40px;
+width: 300px;
+height: 300px;
+color:black;
+background-color: white;
+border: 1px solid grey;
+}
+
