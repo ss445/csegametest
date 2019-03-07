@@ -14,6 +14,8 @@ def webFront():
 def userdatajs():
     return bottle.static_file('userData.js', root="")
 
+def fbgduck
+
 
 
 
